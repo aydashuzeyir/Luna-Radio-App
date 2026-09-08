@@ -4,10 +4,10 @@ on:
   push:
     branches: [ main ]
 
-   jobs:
+jobs:
   build:
     runs-on: ubuntu-latest
-   steps:
+    steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
@@ -22,7 +22,6 @@ on:
       - name: Setup Expo
         uses: expo/expo-github-action@v8
         with:
-           expo-version: latest
-             token:${{ secrets.EXPO_TOKEN }｝        
-       package-manager: npm
-
+          expo-version: latest
+          token: ${{ secrets.EXPO_TOKEN }}
+          package-manager: npm
