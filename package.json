@@ -1,0 +1,20 @@
+{
+  "name": "luna-radio",
+  "version": "1.0.0",
+  "description": "Luna Radio App - Dark Mode & Colorful Themes",
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start"
+  },
+  "dependencies": {
+    "react": "18.2.0",
+    "react-native": "0.72.6",
+    "expo": "~49.0.15",
+    "expo-av": "~13.4.1",
+    "@expo/vector-icons": "^13.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  },
+  "private": true
+}
