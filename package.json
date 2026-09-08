@@ -2,7 +2,8 @@
   "name": "luna-radio",
   "version": "1.0.0",
   "description": "Luna Radio App - Dark Mode & Colorful Themes",
-  "main": "index.js",
+  "main": "node_modules/expo/AppEntry.js",
+
   "scripts": {
     "start": "expo start"
   },
