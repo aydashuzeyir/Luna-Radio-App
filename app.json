@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "Luna Radio",
+    "slug": "Luna-Radio-App",
+    "version": "1.0.0",
+    "android": {
+      "package": "com.aydashuzeyl.lunaradio"
+    }
+  }
+}
+
