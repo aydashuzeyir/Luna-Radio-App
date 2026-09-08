@@ -24,4 +24,4 @@ jobs:
         with:
           expo-version: latest
           token: ${{ secrets.EXPO_TOKEN }}
-          package-manager: npm
+          
